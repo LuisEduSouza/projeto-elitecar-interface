@@ -1,0 +1,75 @@
+.parte-texto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+}
+  
+.parte-carro {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 215px;
+}
+
+.parte-texto div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    color: white;
+
+    height: 50%;
+    width: 30%;
+
+    border-radius: 5px;
+}
+
+.parte-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.elitecar-logo{
+    margin-top: 100px;
+}
+
+.texto-inicio{
+    margin-top: 40px;
+}
+
+.texto-central{
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+.parte-carro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carro-preto{
+    width: 400px;
+    height: 400px;
+    margin-left: -250px;
+}
+.carro-branco{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: -250px;
+}
