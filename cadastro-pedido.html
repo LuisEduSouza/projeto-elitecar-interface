@@ -18,23 +18,28 @@
             <a href="cadastro-pedido.html">PEDIDOS</a>
         </nav>
     </header>
-    <h1>CADASTRO DE CLIENTE</h1>
+    <h1>CADASTRO DE PEDIDOS</h1>
     <div class="container-formulario">
         <form action="">
-            <label for="nome">
-                Nome
+            <label for="cliente">
+                Cliente
                 <br>
-                <input type="text" name="input-nome-cliente" placeholder="Nome completo" required>
+                <input type="text" name="input-cliente-pedido" placeholder="Selecione o cliente" required>
             </label>
-            <label for="cpf">
-                CPF
+            <label for="carro">
+                Carro
                 <br>
-                <input type="number" name="input-cpf-cliente" placeholder="Informe o CPF" required>
+                <input type="text" name="input-carro-pedido" placeholder="Selecione o carro" required>
             </label>
-            <label for="telefone">
-                Telefone
+            <label for="data_pedido">
+                Data do Pedido
                 <br>
-                <input type="number" name="input-telefone-cliente" placeholder="Informe o Telefone" required>
+                <input type="date" name="input-data-pedido" placeholder="Insira a data do pedido" required>
+            </label>
+            <label for="valor-total">
+                Valor Total do Pedido
+                <br>
+                <input type="number" name="input-valor_total-pedido" placeholder="Insira o valor total do pedido" required>
             </label>
 
             <input type="button" value="CADASTRAR">
