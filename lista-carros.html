@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onload="listarCarros()">
     <header>
         <nav>
             <a href="lista-clientes.html">CLIENTES</a>
@@ -29,53 +29,22 @@
         <div class="direita"></div>
     </div>
     <div class="container-tabela">
-        <table>
+        <table id="tabelaCarro">
             <thead>
-                <tr>
-                    <th>ID CARRO</th>
-                    <th>MARCA</th>
-                    <th>MODELO</th>
-                    <th>ANO DE FABRICAÇÃO</th>
-                    <th>COR PRINCIPAL</th>
-                    <th>AÇÕES</th>
-                </tr>
+              <tr>
+                <th>ID DO CARRO</th>
+                <th>NOME</th>
+                <th>MARCA</th>
+                <th>ANO</th>
+                <th>COR</th>
+                <th>AÇÕES</th>
+              </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>TOYOTA</td>
-                    <td>Hilux GR-Sport</td>
-                    <td>2024</td>
-                    <td>PRETO</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>MERCEDES</td>
-                    <td>CLA 200 PROGRESSIVE</td>
-                    <td>2022</td>
-                    <td>CINZA ESPACIAL</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>BMW</td>
-                    <td>X6 M COMPETITION</td>
-                    <td>2023</td>
-                    <td>AZUL CINTILANTE</td>
-                    <td>
-                        <img src="assets/icons/pencil-square.svg" alt="editar">
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
+            <tbody id="tabelaCarroCorpo">
+              <!-- Os dados serão inseridos aqui dinamicamente -->
             </tbody>
-        </table>
+          </table>
     </div>
+    <script src="js/carro.js"></script>
 </body>
 </html>
